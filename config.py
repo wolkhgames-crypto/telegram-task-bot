@@ -1,8 +1,6 @@
 import os
-from dotenv import load_dotenv
 
-# Загрузка переменных окружения из .env
-load_dotenv()
+# Переменные окружения загружаются напрямую (без dotenv для совместимости с хостингом)
 
 # Telegram Bot
 BOT_TOKEN = os.getenv('BOT_TOKEN')
